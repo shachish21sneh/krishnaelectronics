@@ -1,6 +1,6 @@
 # Krishna Electronics - Modern Responsive PHP Website
 
-> **Quality Products | Trusted Service | Reliable Solutions**  
+> **The Name Of Trust**  
 > A modern, professional, and fully responsive multi-page web application built with HTML5, CSS3, JavaScript (ES6+), Bootstrap 5.3, and modular PHP.
 
 ---

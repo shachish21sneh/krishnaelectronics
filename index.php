@@ -19,7 +19,7 @@ require_once __DIR__ . '/includes/navbar.php';
       <!-- Left Hero Content -->
       <div class="col-lg-6">
         <span class="badge-pill-custom badge-pill-accent mb-3">
-          <i class="bi bi-patch-check-fill"></i> Professionally Managed Proprietorship Firm
+          <i class="bi bi-shield-check"></i> The Name Of Trust
         </span>
         
         <h1 class="hero-title">

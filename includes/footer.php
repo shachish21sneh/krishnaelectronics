@@ -18,7 +18,7 @@ if (!defined('SITE_NAME')) {
             <img src="assets/images/logo.png" alt="<?php echo SITE_NAME; ?>" height="48" class="rounded-2">
             <div>
               <h5 class="text-white font-heading mb-0 fs-5"><?php echo SITE_NAME; ?></h5>
-              <small class="text-primary fw-semibold" style="font-size: 0.72rem;">Quality • Trust • Service</small>
+              <small class="text-primary fw-semibold" style="font-size: 0.75rem;">The Name Of Trust</small>
             </div>
           </div>
           <p class="text-white fw-bold fs-6 mb-2"><?php echo SITE_TAGLINE; ?></p>

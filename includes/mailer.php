@@ -271,7 +271,7 @@ class KrishnaMailer
   <div class="wrapper">
     <div class="header">
       <h1>Krishna Electronics</h1>
-      <p>Quality Products | Trusted Service | Reliable Solutions</p>
+      <p>The Name Of Trust</p>
       <div class="badge"><?php echo $formType; ?></div>
     </div>
 

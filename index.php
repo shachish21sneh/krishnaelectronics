@@ -122,7 +122,7 @@ require_once __DIR__ . '/includes/navbar.php';
     <div class="row g-4">
       <div class="col-6 col-md-3">
         <div class="stat-box">
-          <div class="stat-number counter-value" data-target="1500" data-suffix="+">1500+</div>
+          <div class="stat-number counter-value" data-target="10000" data-suffix="+">10000+</div>
           <h6 class="fw-bold mb-1">Satisfied Clients</h6>
           <p class="small text-muted mb-0">Retail, Business & Home</p>
         </div>

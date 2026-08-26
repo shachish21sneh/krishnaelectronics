@@ -48,8 +48,9 @@ krishnaelectronics/
 │   ├── js/
 │   │   └── main.js               # Theme manager, catalog filtering, counter & AJAX
 │   └── images/
-│       ├── logo.svg              # Vector brand mark
-│       ├── favicon.svg           # Vector favicon
+│       ├── logo.png              # Official brand logo
+│       ├── favicon.png           # Brand favicon (PNG)
+│       ├── apple-touch-icon.png  # Apple Touch Icon
 │       ├── hero_showcase.jpg     # Hero banner product visual
 │       ├── cat_electronics.jpg   # Electronics category visual
 │       ├── cat_electrical.jpg    # Electrical category visual

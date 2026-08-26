@@ -13,7 +13,11 @@ $currentPage = isset($currentPage) ? $currentPage : 'home';
     
     <!-- Brand Logo -->
     <a class="navbar-brand d-flex align-items-center gap-2" href="index.php" title="<?php echo SITE_NAME; ?>">
-      <img src="assets/images/logo.svg" alt="<?php echo SITE_NAME; ?> Logo" class="navbar-brand-logo">
+      <img src="assets/images/logo.png" alt="<?php echo SITE_NAME; ?> Logo" class="navbar-brand-logo rounded-2" height="42">
+      <div class="d-none d-sm-flex flex-column lh-sm">
+        <span class="fw-bold font-heading text-main fs-5" style="letter-spacing: -0.3px;">Krishna Electronics</span>
+        <span class="text-primary fw-semibold" style="font-size: 0.65rem; letter-spacing: 0.5px;">Quality • Trust • Service</span>
+      </div>
     </a>
 
     <!-- Right Controls for Mobile (Theme Toggle + Hamburger) -->
@@ -67,7 +71,8 @@ $currentPage = isset($currentPage) ? $currentPage : 'home';
 <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileOffcanvasNav" aria-labelledby="mobileOffcanvasNavLabel">
   <div class="offcanvas-header border-bottom">
     <div class="d-flex align-items-center gap-2">
-      <img src="assets/images/logo.svg" alt="<?php echo SITE_NAME; ?>" height="32">
+      <img src="assets/images/logo.png" alt="<?php echo SITE_NAME; ?>" height="38" class="rounded-2">
+      <span class="fw-bold font-heading text-main fs-5">Krishna Electronics</span>
     </div>
     <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>

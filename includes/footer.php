@@ -14,8 +14,12 @@ if (!defined('SITE_NAME')) {
         
         <!-- Column 1: Brand & Philosophy -->
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-          <div class="d-flex align-items-center gap-2 mb-3">
-            <img src="assets/images/logo.svg" alt="<?php echo SITE_NAME; ?>" height="42">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <img src="assets/images/logo.png" alt="<?php echo SITE_NAME; ?>" height="48" class="rounded-2">
+            <div>
+              <h5 class="text-white font-heading mb-0 fs-5"><?php echo SITE_NAME; ?></h5>
+              <small class="text-primary fw-semibold" style="font-size: 0.72rem;">Quality • Trust • Service</small>
+            </div>
           </div>
           <p class="text-white fw-bold fs-6 mb-2"><?php echo SITE_TAGLINE; ?></p>
           <p class="small footer-description mb-4">

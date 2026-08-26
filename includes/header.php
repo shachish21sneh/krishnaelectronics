@@ -38,7 +38,9 @@ $currentPage = isset($currentPage) ? $currentPage : 'home';
   <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDescription); ?>">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
   
   <!-- Google Fonts Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

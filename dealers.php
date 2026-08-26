@@ -166,7 +166,7 @@ require_once __DIR__ . '/includes/navbar.php';
             <!-- Mobile -->
             <div class="col-md-6">
               <label for="dealerMobile" class="form-label form-label-custom">Mobile Number <span class="text-danger">*</span></label>
-              <input type="tel" class="form-control form-control-custom" id="dealerMobile" name="mobile" placeholder="e.g. +91 98765 43210" required>
+              <input type="tel" class="form-control form-control-custom" id="dealerMobile" name="mobile" placeholder="e.g. +91 94152 39944" required>
               <div class="invalid-feedback">Please enter a valid mobile number.</div>
             </div>
 
@@ -179,7 +179,7 @@ require_once __DIR__ . '/includes/navbar.php';
             <!-- City & State -->
             <div class="col-md-6">
               <label for="dealerCity" class="form-label form-label-custom">City &amp; State <span class="text-danger">*</span></label>
-              <input type="text" class="form-control form-control-custom" id="dealerCity" name="city" placeholder="e.g. New Delhi, Delhi" required>
+              <input type="text" class="form-control form-control-custom" id="dealerCity" name="city" placeholder="e.g. Ghazipur, Uttar Pradesh" required>
               <div class="invalid-feedback">Please provide your city and state.</div>
             </div>
 

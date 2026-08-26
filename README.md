@@ -29,9 +29,10 @@
    - Embedded floating widget and product buttons automatically route users to WhatsApp with the exact requested text:
      > *"Hello Krishna Electronics, I am interested in your products. Please share product details, price and availability."*
 
-4. **Interactive Lead Engine**:
-   - Backend API endpoint [`api/enquiry-handler.php`](file:///Users/diwakarjha/Desktop/krishnaelectronics/api/enquiry-handler.php) sanitizes form inputs and logs enquiries with unique reference IDs in `data/enquiries.json`.
-   - Toast notification alerts for user feedback.
+4. **Interactive Lead Engine & Instant SMTP Notification**:
+   - Backend API endpoint [`api/enquiry-handler.php`](file:///Users/diwakarjha/Desktop/krishnaelectronics/api/enquiry-handler.php) sanitizes form inputs, assigns a unique lead reference ID, logs enquiries into `data/enquiries.json`, and immediately dispatches an email notification via authenticated SMTP (`info@krishnaelectronics.org` @ `mail.krishnaelectronics.org:465`) to **`krishelegzp@gmail.com`**.
+   - Zero-dependency pure PHP SMTP service in [`includes/mailer.php`](file:///Users/diwakarjha/Desktop/krishnaelectronics/includes/mailer.php).
+   - Toast notification alerts for instant user feedback.
 
 ---
 
@@ -40,7 +41,7 @@
 ```plaintext
 krishnaelectronics/
 ├── api/
-│   └── enquiry-handler.php       # Form submission AJAX backend
+│   └── enquiry-handler.php       # Form submission AJAX backend & SMTP dispatcher
 ├── assets/
 │   ├── css/
 │   │   └── style.css             # Custom design system & stylesheet
@@ -58,7 +59,8 @@ krishnaelectronics/
 ├── data/
 │   └── enquiries.json            # JSON store for submitted customer leads
 ├── includes/
-│   ├── config.php                # Centralized business info, phone, whatsapp, SEO defaults
+│   ├── config.php                # Centralized business info, phone, SMTP settings, SEO defaults
+│   ├── mailer.php                # Standalone SSL/TLS SMTP mailer service
 │   ├── header.php                # HTML head, SEO tags, CSS imports, top announcement bar
 │   ├── navbar.php                # Sticky navbar, offcanvas mobile menu, theme switch
 │   ├── footer.php                # 4-column footer, legal links, script inclusions
@@ -89,7 +91,12 @@ Open `http://localhost:8000` in your web browser.
 
 ---
 
-## ⚙️ Customizing Business Details
+## ⚙️ Business & SMTP Configuration
 
-All business contact information, phone numbers, proprietor details, email addresses, and working hours can be modified in a single location:  
+All business contact information, phone numbers, proprietor details, email addresses, and SMTP settings are centralized in:  
 👉 [`includes/config.php`](file:///Users/diwakarjha/Desktop/krishnaelectronics/includes/config.php)
+
+- **Mobile / WhatsApp**: `+91 94152 39944` (`+919415239944`)
+- **Display Email**: `info@krishnaelectronics.org`
+- **Lead Notifications Sent To**: `krishelegzp@gmail.com`
+- **SMTP Server**: `mail.krishnaelectronics.org` (Port 465 SSL)

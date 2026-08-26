@@ -39,7 +39,7 @@
             <!-- Mobile Number -->
             <div class="col-md-6">
               <label for="modalMobileField" class="form-label form-label-custom">Mobile Number <span class="text-danger">*</span></label>
-              <input type="tel" class="form-control form-control-custom" id="modalMobileField" name="mobile" placeholder="e.g. +91 98765 43210" required>
+              <input type="tel" class="form-control form-control-custom" id="modalMobileField" name="mobile" placeholder="e.g. +91 94152 39944" required>
               <div class="invalid-feedback">Please enter a valid contact number.</div>
             </div>
 

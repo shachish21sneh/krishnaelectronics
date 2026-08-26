@@ -17,15 +17,30 @@ define('SITE_YEAR', '2026');
 
 // Business & Proprietorship Details
 define('FIRM_TYPE', 'Proprietorship Firm');
-define('PROPRIETOR_NAME', 'Krishna Electronics Team');
-define('COMPANY_ADDRESS', 'Main Market Commercial Complex, Near Central Hub, New Delhi - 110001, India');
-define('PRIMARY_PHONE', '+91 98765 43210');
-define('PRIMARY_PHONE_RAW', '+919876543210');
-define('SECONDARY_PHONE', '+91 98765 43211');
-define('WHATSAPP_NUMBER', '919876543210');
-define('PRIMARY_EMAIL', 'info@krishnaelectronics.com');
-define('SALES_EMAIL', 'sales@krishnaelectronics.com');
-define('BUSINESS_HOURS', 'Mon - Sat: 9:30 AM - 8:30 PM (Sunday: Prior Appointment / Urgent Support)');
+define('PROPRIETOR_NAME', 'Sunil Kumar Gupta');
+define('COMPANY_ADDRESS', 'Shop No 1, Lanka Maidan, Ghazipur, Uttar Pradesh, 233001, India');
+define('PRIMARY_PHONE', '+91 94152 39944');
+define('PRIMARY_PHONE_RAW', '+919415239944');
+define('SECONDARY_PHONE', '+91 94152 39944');
+define('WHATSAPP_NUMBER', '919415239944');
+define('PRIMARY_EMAIL', 'info@krishnaelectronics.org');
+define('SALES_EMAIL', 'info@krishnaelectronics.org');
+define('BUSINESS_HOURS', 'Mon - Sat: 10:00 AM - 07:00 PM (Sunday: Prior Appointment / Urgent Support)');
+
+// Load local environment overrides if available (contains uncommitted secrets)
+if (file_exists(__DIR__ . '/config.local.php')) {
+    require_once __DIR__ . '/config.local.php';
+}
+
+// SMTP Configuration
+if (!defined('SMTP_HOST')) define('SMTP_HOST', getenv('SMTP_HOST') ?: 'mail.krishnaelectronics.org');
+if (!defined('SMTP_PORT')) define('SMTP_PORT', getenv('SMTP_PORT') ? (int)getenv('SMTP_PORT') : 465);
+if (!defined('SMTP_SECURE')) define('SMTP_SECURE', getenv('SMTP_SECURE') ?: 'ssl'); // 'ssl' for port 465, 'tls' for port 587
+if (!defined('SMTP_USER')) define('SMTP_USER', getenv('SMTP_USER') ?: 'info@krishnaelectronics.org');
+if (!defined('SMTP_PASS')) define('SMTP_PASS', getenv('SMTP_PASS') ?: '');
+if (!defined('SMTP_FROM_EMAIL')) define('SMTP_FROM_EMAIL', getenv('SMTP_FROM_EMAIL') ?: 'info@krishnaelectronics.org');
+if (!defined('SMTP_FROM_NAME')) define('SMTP_FROM_NAME', getenv('SMTP_FROM_NAME') ?: 'Krishna Electronics');
+if (!defined('NOTIFICATION_RECIPIENT_EMAIL')) define('NOTIFICATION_RECIPIENT_EMAIL', getenv('NOTIFICATION_RECIPIENT_EMAIL') ?: 'krishelegzp@gmail.com');
 
 // WhatsApp Pre-filled message (as mandated in PDF)
 define('WHATSAPP_DEFAULT_MSG', 'Hello Krishna Electronics, I am interested in your products. Please share product details, price and availability.');

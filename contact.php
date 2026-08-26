@@ -79,9 +79,9 @@ require_once __DIR__ . '/includes/navbar.php';
             <a href="tel:<?php echo PRIMARY_PHONE_RAW; ?>" class="fw-bold text-main d-flex align-items-center gap-2">
               <i class="bi bi-telephone-outbound text-primary"></i> <?php echo PRIMARY_PHONE; ?>
             </a>
-            <a href="tel:<?php echo SECONDARY_PHONE; ?>" class="text-muted d-flex align-items-center gap-2">
-              <i class="bi bi-telephone text-primary"></i> <?php echo SECONDARY_PHONE; ?>
-            </a>
+            <span class="text-muted d-flex align-items-center gap-2">
+              <i class="bi bi-headset text-primary"></i> Mon - Sat: 10:00 AM - 07:00 PM
+            </span>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@ require_once __DIR__ . '/includes/navbar.php';
             <a href="<?php echo getWhatsAppUrl(); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-premium-whatsapp btn-sm w-100">
               <i class="bi bi-whatsapp me-1"></i> Start WhatsApp Chat
             </a>
-            <span class="text-muted" style="font-size: 0.75rem;">Number: +<?php echo WHATSAPP_NUMBER; ?></span>
+            <span class="text-muted" style="font-size: 0.75rem;">WhatsApp: +<?php echo WHATSAPP_NUMBER; ?></span>
           </div>
         </div>
       </div>
@@ -114,14 +114,13 @@ require_once __DIR__ . '/includes/navbar.php';
             <i class="bi bi-envelope-open-fill"></i>
           </div>
           <span class="badge bg-warning-subtle text-warning border border-warning-subtle rounded-pill px-3 py-1 small mb-2">
-            Email &amp; Hours
+            Official Email
           </span>
           <h5 class="font-heading mb-1">Email Inquiries</h5>
           <p class="small text-muted mb-3">For formal POs and official letters</p>
           
           <div class="d-flex flex-column gap-1 small mb-3">
             <a href="mailto:<?php echo PRIMARY_EMAIL; ?>" class="text-main fw-semibold"><?php echo PRIMARY_EMAIL; ?></a>
-            <a href="mailto:<?php echo SALES_EMAIL; ?>" class="text-muted"><?php echo SALES_EMAIL; ?></a>
           </div>
 
           <div class="pt-2 border-top border-subtle">
@@ -156,7 +155,7 @@ require_once __DIR__ . '/includes/navbar.php';
 
               <div class="col-md-6">
                 <label for="contactMobile" class="form-label form-label-custom">Mobile Number <span class="text-danger">*</span></label>
-                <input type="tel" class="form-control form-control-custom" id="contactMobile" name="mobile" placeholder="e.g. +91 98765 43210" required>
+                <input type="tel" class="form-control form-control-custom" id="contactMobile" name="mobile" placeholder="e.g. +91 94152 39944" required>
                 <div class="invalid-feedback">Please enter a valid mobile number.</div>
               </div>
 
@@ -227,7 +226,7 @@ require_once __DIR__ . '/includes/navbar.php';
             
             <div class="ratio ratio-16x9 rounded-3 overflow-hidden border border-subtle flex-grow-1 bg-surface-elevated">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8392319277!2d77.06889754725782!3d28.52758200617607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                src="https://maps.google.com/maps?q=Lanka+Maidan,+Ghazipur,+Uttar+Pradesh+233001,+India&t=&z=16&ie=UTF8&iwloc=&output=embed" 
                 width="100%" 
                 height="100%" 
                 style="border:0;" 

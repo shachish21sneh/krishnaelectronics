@@ -630,7 +630,7 @@ require_once __DIR__ . '/includes/navbar.php';
 
               <div class="col-md-6">
                 <label for="homeMobile" class="form-label form-label-custom">Mobile Number <span class="text-danger">*</span></label>
-                <input type="tel" class="form-control form-control-custom" id="homeMobile" name="mobile" placeholder="Mobile Number" required>
+                <input type="tel" class="form-control form-control-custom" id="homeMobile" name="mobile" placeholder="e.g. +91 94152 39944" required>
                 <div class="invalid-feedback">Please enter a valid mobile number.</div>
               </div>
 

@@ -9,3 +9,11 @@ Thumbs.db
 
 # Logs & Temporary files
 *.log
+
+# Sensitive environment and credentials
+includes/config.local.php
+.env
+.env.php
+.env.local
+config.local.php
+data/enquiries.json

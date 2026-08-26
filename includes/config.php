@@ -7,8 +7,8 @@
 // Site Configuration
 define('SITE_NAME', 'Krishna Electronics');
 define('SITE_TAGLINE', 'The Name Of Trust');
-define('SITE_DESCRIPTION', 'Krishna Electronics – Quality electronics, electrical products, power backup solutions and reliable customer service at competitive prices. Contact us for product enquiries and business requirements.');
-define('SITE_KEYWORDS', 'Krishna Electronics, electronics shop, electronic products, electrical products, electrical accessories, LED TV, home appliances, inverter, UPS, battery, lithium battery, electrical items, electronics dealer, electronics distributor, electrical supplier');
+define('SITE_DESCRIPTION', 'Krishna Electronics – Quality electronics, laptops, desktops, CCTV cameras, inverters, batteries, solar solutions, and electrical products with dependable service and complete solutions for residential and commercial needs.');
+define('SITE_KEYWORDS', 'Krishna Electronics, laptops, desktops, CCTV cameras, inverters, batteries, solar solutions, electrical products, electronics store Ghazipur, IT solutions, power backup');
 // Dynamic Protocol and Domain Detection
 $siteProtocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || (isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == 443)) ? "https://" : "http://";
 $siteHost = $_SERVER['HTTP_HOST'] ?? 'krishnaelectronics.org';

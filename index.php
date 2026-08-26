@@ -29,11 +29,11 @@ require_once __DIR__ . '/includes/navbar.php';
         </h1>
         
         <p class="hero-lead">
-          <strong>Krishna Electronics</strong> is committed to providing quality electronic products, electrical solutions and dependable services to individuals, retailers, dealers, and commercial enterprises.
+          <strong>Krishna Electronics</strong> is committed to providing quality electronic products, electrical solutions, and dependable services, offering a comprehensive range of laptops, desktops, CCTV cameras, inverters, batteries, solar solutions, and other electronic and electrical products to individuals, retailers, dealers, and commercial enterprises.
         </p>
 
         <p class="text-muted small mb-4">
-          We focus on delivering the right products at competitive prices while maintaining transparency, customer satisfaction, and long-term business relationships.
+          With a strong focus on quality, reliability, and customer satisfaction, we strive to deliver trusted products and complete solutions for both residential and commercial requirements.
         </p>
         
         <!-- CTA Action Buttons (Matching PDF) -->
@@ -85,27 +85,27 @@ require_once __DIR__ . '/includes/navbar.php';
       <!-- Right Hero Showcase Visual -->
       <div class="col-lg-6">
         <div class="hero-image-wrapper">
-          <img src="assets/images/hero_showcase.jpg" alt="Krishna Electronics Products Showcase" class="img-fluid">
+          <img src="assets/images/hero_showcase.jpg" alt="Krishna Electronics Store - Lanka Maidan Ghazipur" class="img-fluid rounded-4 shadow-lg">
           
           <!-- Floating Badge 1 -->
           <div class="hero-floating-card card-1 d-none d-sm-flex align-items-center gap-3">
-            <div class="feature-icon-wrapper mb-0" style="width: 44px; height: 44px; font-size: 1.2rem;">
-              <i class="bi bi-battery-charging text-warning"></i>
+            <div class="feature-icon-wrapper mb-0 bg-primary-subtle text-primary" style="width: 44px; height: 44px; font-size: 1.2rem;">
+              <i class="bi bi-laptop"></i>
             </div>
             <div>
-              <div class="fw-bold small font-heading">Power Backup & UPS</div>
-              <div class="text-muted" style="font-size: 0.72rem;">Pure Sine Wave & Lithium</div>
+              <div class="fw-bold small font-heading">Laptops, Desktops & CCTV</div>
+              <div class="text-muted" style="font-size: 0.72rem;">Sales, Service & Upgrades</div>
             </div>
           </div>
 
           <!-- Floating Badge 2 -->
           <div class="hero-floating-card card-2 d-none d-sm-flex align-items-center gap-3">
-            <div class="feature-icon-wrapper mb-0" style="width: 44px; height: 44px; font-size: 1.2rem;">
-              <i class="bi bi-tv text-primary"></i>
+            <div class="feature-icon-wrapper mb-0 bg-warning-subtle text-warning" style="width: 44px; height: 44px; font-size: 1.2rem;">
+              <i class="bi bi-battery-charging"></i>
             </div>
             <div>
-              <div class="fw-bold small font-heading">Smart 4K Electronics</div>
-              <div class="text-muted" style="font-size: 0.72rem;">Appliances & Audio Systems</div>
+              <div class="fw-bold small font-heading">Inverters, Solar & Batteries</div>
+              <div class="text-muted" style="font-size: 0.72rem;">Complete Power Backup</div>
             </div>
           </div>
 

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="favBrand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="favAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0F172A" />
+  <path d="M32 6 L56 20 L56 46 L32 58 L8 46 L8 20 Z" stroke="url(#favBrand)" stroke-width="3" fill="url(#favBrand)" fill-opacity="0.1" />
+  <path d="M35 16 L22 34 L31 34 L27 48 L42 30 L33 30 Z" fill="url(#favAccent)" />
+  <circle cx="32" cy="6" r="3" fill="#06B6D4" />
+  <circle cx="56" cy="20" r="3" fill="#3B82F6" />
+  <circle cx="56" cy="46" r="3" fill="#4F46E5" />
+  <circle cx="32" cy="58" r="3" fill="#06B6D4" />
+  <circle cx="8" cy="46" r="3" fill="#4F46E5" />
+  <circle cx="8" cy="20" r="3" fill="#3B82F6" />
+</svg>

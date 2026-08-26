@@ -91,6 +91,21 @@
   --shadow-glow: 0 0 30px rgba(56, 189, 248, 0.22);
 }
 
+[data-bs-theme="dark"] .text-muted {
+  color: #cbd5e1 !important;
+}
+
+[data-bs-theme="dark"] .form-label-custom {
+  color: #f8fafc;
+}
+
+[data-bs-theme="dark"] .contact-info-card p,
+[data-bs-theme="dark"] .feature-card p,
+[data-bs-theme="dark"] .step-card p,
+[data-bs-theme="dark"] .product-card p {
+  color: #cbd5e1;
+}
+
 /* Base & Reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -902,24 +917,40 @@ a:hover {
 /* Footer */
 .site-footer {
   background: #090d16;
-  color: #94a3b8;
+  color: #e2e8f0;
   border-top: 1px solid #1e293b;
   padding: 60px 0 24px;
 }
 
 .site-footer h5 {
-  color: #f8fafc;
-  font-size: 1.1rem;
+  color: #ffffff !important;
+  font-size: 1.15rem;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
+.site-footer p {
+  color: #cbd5e1;
+}
+
+.site-footer .footer-description {
+  color: #cbd5e1 !important;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
 .site-footer a {
-  color: #94a3b8;
+  color: #cbd5e1;
   transition: color var(--transition-fast);
 }
 
 .site-footer a:hover {
   color: #38bdf8;
+  text-decoration: underline;
+}
+
+.site-footer .text-muted {
+  color: #94a3b8 !important;
 }
 
 .footer-link-list {
@@ -929,14 +960,14 @@ a:hover {
 }
 
 .footer-link-list li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .footer-bottom {
   border-top: 1px solid #1e293b;
   padding-top: 24px;
   margin-top: 40px;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
 }
 
 /* Modals */

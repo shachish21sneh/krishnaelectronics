@@ -15,17 +15,17 @@ if (!defined('SITE_NAME')) {
         <!-- Column 1: Brand & Philosophy -->
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
           <div class="d-flex align-items-center gap-2 mb-3">
-            <img src="assets/images/logo.svg" alt="<?php echo SITE_NAME; ?>" height="36">
+            <img src="assets/images/logo.svg" alt="<?php echo SITE_NAME; ?>" height="42">
           </div>
-          <p class="text-white-50 fw-semibold mb-2"><?php echo SITE_TAGLINE; ?></p>
-          <p class="small text-muted mb-4">
+          <p class="text-white fw-bold fs-6 mb-2"><?php echo SITE_TAGLINE; ?></p>
+          <p class="small footer-description mb-4">
             A customer-focused <?php echo FIRM_TYPE; ?> committed to delivering high-quality electronic products, electrical solutions, and reliable power backup equipment at competitive prices.
           </p>
-          <div class="d-flex align-items-center gap-2">
-            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 rounded-pill small">
+          <div class="d-flex align-items-center gap-2 flex-wrap">
+            <span class="badge bg-primary text-white border border-primary px-3 py-2 rounded-pill small fw-semibold">
               <i class="bi bi-patch-check-fill me-1"></i> Certified Proprietorship
             </span>
-            <span class="badge bg-warning-subtle text-warning border border-warning-subtle px-3 py-2 rounded-pill small">
+            <span class="badge bg-warning text-dark border border-warning px-3 py-2 rounded-pill small fw-bold">
               <i class="bi bi-shield-check me-1"></i> Trusted Partner
             </span>
           </div>
@@ -33,33 +33,33 @@ if (!defined('SITE_NAME')) {
 
         <!-- Column 2: Quick Links -->
         <div class="col-lg-2 col-md-3 col-6">
-          <h5>Quick Links</h5>
+          <h5 class="text-white fw-bold">Quick Links</h5>
           <ul class="footer-link-list">
-            <li><a href="index.php"><i class="bi bi-chevron-right small me-1"></i> Home</a></li>
-            <li><a href="about.php"><i class="bi bi-chevron-right small me-1"></i> About Us</a></li>
-            <li><a href="products.php"><i class="bi bi-chevron-right small me-1"></i> Products</a></li>
-            <li><a href="services.php"><i class="bi bi-chevron-right small me-1"></i> Services</a></li>
-            <li><a href="dealers.php"><i class="bi bi-chevron-right small me-1"></i> Dealer/Partner</a></li>
-            <li><a href="contact.php"><i class="bi bi-chevron-right small me-1"></i> Contact Us</a></li>
+            <li><a href="index.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Home</a></li>
+            <li><a href="about.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> About Us</a></li>
+            <li><a href="products.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Products</a></li>
+            <li><a href="services.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Services</a></li>
+            <li><a href="dealers.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Dealer/Partner</a></li>
+            <li><a href="contact.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Contact Us</a></li>
           </ul>
         </div>
 
         <!-- Column 3: Product Range -->
         <div class="col-lg-3 col-md-3 col-6">
-          <h5>Product Divisions</h5>
+          <h5 class="text-white fw-bold">Product Divisions</h5>
           <ul class="footer-link-list">
-            <li><a href="products.php?cat=electronics"><i class="bi bi-chevron-right small me-1"></i> Electronics Products</a></li>
-            <li><a href="products.php?cat=electrical"><i class="bi bi-chevron-right small me-1"></i> Electrical Products</a></li>
-            <li><a href="products.php?cat=powerbackup"><i class="bi bi-chevron-right small me-1"></i> Power Backup Solutions</a></li>
-            <li><a href="products.php"><i class="bi bi-chevron-right small me-1"></i> Smart LED TVs & Audio</a></li>
-            <li><a href="products.php"><i class="bi bi-chevron-right small me-1"></i> Copper Wires & MCBs</a></li>
-            <li><a href="products.php"><i class="bi bi-chevron-right small me-1"></i> Inverters & Lithium Packs</a></li>
+            <li><a href="products.php?cat=electronics"><i class="bi bi-chevron-right small me-1 text-primary"></i> Electronics Products</a></li>
+            <li><a href="products.php?cat=electrical"><i class="bi bi-chevron-right small me-1 text-primary"></i> Electrical Products</a></li>
+            <li><a href="products.php?cat=powerbackup"><i class="bi bi-chevron-right small me-1 text-primary"></i> Power Backup Solutions</a></li>
+            <li><a href="products.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Smart LED TVs & Audio</a></li>
+            <li><a href="products.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Copper Wires & MCBs</a></li>
+            <li><a href="products.php"><i class="bi bi-chevron-right small me-1 text-primary"></i> Inverters & Lithium Packs</a></li>
           </ul>
         </div>
 
         <!-- Column 4: Customer Support & Contact Details -->
         <div class="col-lg-3 col-md-6">
-          <h5>Customer Support</h5>
+          <h5 class="text-white fw-bold">Customer Support</h5>
           <ul class="footer-link-list mb-4">
             <li class="d-flex align-items-start gap-2">
               <i class="bi bi-geo-alt-fill text-primary mt-1"></i>
@@ -67,18 +67,18 @@ if (!defined('SITE_NAME')) {
             </li>
             <li class="d-flex align-items-center gap-2">
               <i class="bi bi-telephone-fill text-primary"></i>
-              <a href="tel:<?php echo PRIMARY_PHONE_RAW; ?>"><?php echo PRIMARY_PHONE; ?></a>
+              <a href="tel:<?php echo PRIMARY_PHONE_RAW; ?>" class="fw-semibold text-white"><?php echo PRIMARY_PHONE; ?></a>
             </li>
             <li class="d-flex align-items-center gap-2">
               <i class="bi bi-whatsapp text-success"></i>
-              <a href="<?php echo getWhatsAppUrl(); ?>" target="_blank" rel="noopener noreferrer">WhatsApp Chat Support</a>
+              <a href="<?php echo getWhatsAppUrl(); ?>" target="_blank" rel="noopener noreferrer" class="text-success fw-semibold">WhatsApp Chat Support</a>
             </li>
             <li class="d-flex align-items-center gap-2">
               <i class="bi bi-envelope-fill text-primary"></i>
               <a href="mailto:<?php echo PRIMARY_EMAIL; ?>"><?php echo PRIMARY_EMAIL; ?></a>
             </li>
             <li class="d-flex align-items-center gap-2">
-              <i class="bi bi-clock-fill text-primary"></i>
+              <i class="bi bi-clock-fill text-warning"></i>
               <span><?php echo BUSINESS_HOURS; ?></span>
             </li>
           </ul>
@@ -93,15 +93,15 @@ if (!defined('SITE_NAME')) {
 
       <!-- Footer Bottom -->
       <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-        <p class="mb-0 text-center text-md-start">
-          &copy; <?php echo SITE_YEAR; ?> <?php echo SITE_NAME; ?>. All Rights Reserved.
+        <p class="mb-0 text-center text-md-start text-white-50">
+          &copy; <?php echo SITE_YEAR; ?> <strong class="text-white"><?php echo SITE_NAME; ?></strong>. All Rights Reserved.
         </p>
         <div class="d-flex align-items-center gap-3 text-center">
-          <a href="privacy-policy.php" class="text-decoration-none small">Privacy Policy</a>
-          <span class="text-muted">•</span>
-          <a href="terms-conditions.php" class="text-decoration-none small">Terms & Conditions</a>
-          <span class="text-muted">•</span>
-          <a href="contact.php" class="text-decoration-none small">Contact Support</a>
+          <a href="privacy-policy.php" class="text-decoration-none small text-white-50">Privacy Policy</a>
+          <span class="text-white-50">•</span>
+          <a href="terms-conditions.php" class="text-decoration-none small text-white-50">Terms & Conditions</a>
+          <span class="text-white-50">•</span>
+          <a href="contact.php" class="text-decoration-none small text-white-50">Contact Support</a>
         </div>
       </div>
 

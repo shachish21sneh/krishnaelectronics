@@ -7,9 +7,10 @@ if (!defined('SITE_NAME')) {
 }
 
 // Dynamic Page Meta Defaults
-$pageTitle = isset($pageTitle) ? $pageTitle . ' | ' . SITE_NAME : SITE_NAME . ' | Electronics & Electrical Products';
-$pageDescription = isset($pageDescription) ? $pageDescription : SITE_DESCRIPTION;
-$pageKeywords = isset($pageKeywords) ? $pageKeywords : SITE_KEYWORDS;
+$siteName = defined('SITE_NAME') ? SITE_NAME : 'Krishna Electronics';
+$pageTitle = isset($pageTitle) ? $pageTitle . ' | ' . $siteName : $siteName . ' | Electronics & Electrical Products';
+$pageDescription = isset($pageDescription) ? $pageDescription : (defined('SITE_DESCRIPTION') ? SITE_DESCRIPTION : 'Krishna Electronics - Quality Products, Trusted Service, Reliable Solutions');
+$pageKeywords = isset($pageKeywords) ? $pageKeywords : (defined('SITE_KEYWORDS') ? SITE_KEYWORDS : 'Krishna Electronics, electronics, electrical, inverters, appliances');
 $currentPage = isset($currentPage) ? $currentPage : 'home';
 ?>
 <!DOCTYPE html>
